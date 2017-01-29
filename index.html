@@ -5,8 +5,191 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header class="main_header">
+      <nav class="main_navigation">
+        <ul>
+          <li>
+            Информация
+          </li>
+          <li>
+            Фото и видео
+          </li>
+          <li>
+            Карта штата
+          </li>
+          <li>
+            Гостиницы
+          </li>
+        </ul>
+        <div class="header_logo">
+          <img src="#" width="67" height="56" alt="City of Sedona">
+          <img src="#" width="138" height="70" alt="City of Sedona">
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="banner">
+        <div class="container_welcome">
+            <img src="img/index-logo1.png" width="188" height="45" alt="Welcome">
+            <img src="img/index-logo2.png" width="256" height="30" alt="to the gorgeous">
+        </div>
+        <div class="container_center">
+          <img src="img/index-logo3.png" width="458" height="78" alt="Sedona">
+        </div>
+        <div class="container_bottom">
+          <img src="img/index-logo3.png" width="296" height="80" alt="Because the Grand  Canyon sucks!">
+        </div>
+        <div class="picture_bottom">
+          <img src="img/index-logo3.png" width="1200" height="57" alt="Backgound banner">
+        </div>
+      </div>
+      <div class="features_item">
+        <h1 class="features_item_title">СЕДОНА — небольшой городок в АРИЗОНЕ,  зАСЛУЖИвающий большего!</h1>
+        <p>
+          Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
+        </p>
+      </div>
+      <div class="container_feature">
+        <div class="container_feature_text">
+          <b>Настоящий городок</b>
+            <ul>
+              <li>
+                — №1 —
+              </li>
+              <li>
+                Седона - Не Атракцион для туристов,
+                там течет своя жизнь
+              </li>
+            </ul>
+        </div>
+        <div class="container_feature_picture">
+          <img src="#" width="800" height="255" alt="Настоящий городок">
+        </div>
+      </div>
+      <div class="container_utp">
+        <section class="utp_1">
+          <img src="#" width="75" height="72" alt="Жилье">
+          <b>Жилье</b>
+          <p>
+            Рекомендуем пожить в настроящем мотеле, все как в кино!
+          </p>
+        </section>
+        <section class="utp_2">
+          <img src="#" width="75" height="72" alt="Жилье">
+          <b>Еда</b>
+          <p>
+            Всегда заказывайте фирменый бургер, вы не разачаруетесь!
+          </p>
+        </section>
+        <section class="utp_3">
+          <img src="#" width="75" height="72" alt="Жилье">
+          <b>Сувениры</b>
+          <p>
+            Не только китайского, но и местного производства!
+          </p>
+        </section>
+      </div>
+      <div class="container_feature">
+        <div class="container_feature_picture">
+          <img src="#" width="800" height="255" alt="Мост дьявола">
+        </div>
+        <div class="container_feature_text">
+          <b>Там есть мост дьявола</b>
+            <ul>
+              <li>
+                — №2 —
+              </li>
+              <li>
+                Да, по нему можно пройтись если вы осмелитесь
+              </li>
+            </ul>
+        </div>
+      </div>
+      <div class="container_utp">
+        <section class="utp_1">
+          <img src="#" width="75" height="72" alt="Жилье">
+          <b>Жилье</b>
+          <span>-№3-</span>
+          <p>
+            Все достопримечастельности находятся очень близко
+          </p>
+        </section>
+        <section class="utp_2">
+          <img src="#" width="75" height="72" alt="Жилье">
+          <b>Красивая дорога</b>
+          <span>-№4-</span>
+          <p>
+            Большинство едет в Гранд Каньон и толпится там
+          </p>
+        </section>
+        <section class="utp_3">
+          <img src="#" width="75" height="72" alt="Жилье">
+          <b>Мало туристов</b>
+          <span>-№4-</span>
+          <p>
+            Не только китайского, но и местного производства!
+          </p>
+        </section>
+      </div>
+      <div class="container_bottom">
+        <div class="container_search">
+          <b>Заинтересовались?</b>
+          <p>
+            Укажите предпологаемые даты поездки,
+            и мы покажем вам лучшие предложения гостиниц в седоне
+          </p>
+        </div>
+        <div class="container_search_hotel">
+          <form class="form_search_hotel" action="#" method="get">
+            <input class="btn_show_form" type="button" value="Поиск гостиниы в седоне">
+            <div class="hide_item_search_form">
+              <div class="fields_search">
+                <label class="label_field_form_search" for="id_date_from">Дата заезда:</label>
+                <input class="field_date_form_search" id="id_date_from" type="text" name="date_from">
+              </div>
+              <div class="fields_search">
+                <label class="label_field_form_search" for="id_date_to">Дата заезда:</label>
+                <input class="field_date_form_search" id="id_date_to" type="text" name="date_to">
+              </div>
+              <div class="fields_search">
+                <label class="label_field_form_search" for="id_adult">Дата заезда:</label>
+                <input class="field_plus_minus" id="id_adult" type="text" name="adult">
+              </div>
+              <div class="fields_search">
+                <label class="label_field_form_search" for="id_children">Дата заезда:</label>
+                <input class="field_plus_minus" id="id_children" type="text" name="children">
+              </div>
+              <input class="btn_search" type="submit" value="Найти">
+            </div>
+          </form>
+        </div>
+        <div class="container_map">
+          <img class="map" src="#" width="1200" height="593" alt="Карта Седона">
+        </div>
+        <footer class="main-footer">
+            <section class="footer-instagram">
+              <a class="social_btn_inst" href="#">Инстаграм</a>
+            </section>
+          <section class="footer-social">
+            <p>Давайте дружить!</p>
+            <ul>
+              <li>
+                <a class="social_btn social_btn_vk" href="#">Твитер</a>
+              </li>
+              <li>
+                <a class="social_btn social_btn_fb" href="#">Фейсбук</a>
+              </li>
+              <li>
+                <a class="social_btn social_btn_inst" href="#">Youtube</a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer_copyright">
+            <p>Разработано:</p>
+            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          </section>
+        </footer>
+      </div>
+    </main>
   </body>
 </html>
